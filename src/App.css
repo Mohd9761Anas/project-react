@@ -2,37 +2,94 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  margin-right: 30px;
+  margin-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-item {
+  margin-right: 15px;
+  color: white; 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-custom .nav-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Optionally, you can add hover effects */
+.navbar-custom .nav-link:hover {
+  color: wheat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Active link color */
+.navbar-custom .nav-link.active {
+  color: white;
 }
+.navbar-custom .nav-link.active:hover{
+  color: wheat;
+}
+.d-flex {
+  /* margin-left: 20px; */
+  margin-right: 2rem;
+}
+
+/*login form*/
+.login {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background: url('./components/images/jnmc-aligarh.webp') no-repeat center center;
+  background-size: cover;
+}
+/* AuthPage.css */
+
+
+
+.container {
+  background: rgba(255, 255, 255, 0.4); /* White background with some opacity */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+.login-button{
+  margin-top: 1rem;
+}
+.login-form-container {
+  background: rgba(255, 255, 255, 0.4); /* White background with some opacity */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form {
+  width: 100%;
+}
+.p-link{
+   color: blue;
+}
+
+/* heading */
+.heading {
+  
+  overflow: hidden;
+  background: url('./components/images/heading.webp') no-repeat center center;
+  background-size: cover;
+  background-position: "center";
+}
+
+/* opdList */
+.opdList{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/*predict disease*/
+/* .predict{
+  background-color: #A9C3D0;
+} */
+
