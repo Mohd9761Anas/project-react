@@ -3,7 +3,7 @@ import Heading from "./heading";
 import OPDList from "./OPDList";
 import UserHistory from "./history";
 import PredictDisease from "./predictDisease";
-
+import Footer from "./footer";
 import AllUsersHistory from "./adminhistory";
 // const Home = ({ user }) => {
 //     return (
@@ -34,6 +34,7 @@ const Home = ({ user }) => {
                    Please login to access disease prediction and view your history.
                </div>
            )}
+                 <Footer />
        </div>
    );
 };
