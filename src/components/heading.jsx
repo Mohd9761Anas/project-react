@@ -19,11 +19,7 @@ const Heading = () => {
         <h1 className="display-4 fw-bold mb-4">
           We Believe Everyone Should Have Easy Access To Great Health Care
         </h1>
-        <p className="lead mb-4">
-          As a leading industry innovator, Dento is opening up exciting new
-          opportunities for dental professionals, investors, employees &
-          suppliers. Contact us to find out what we have to offer you.
-        </p>
+        
         <div className="d-flex justify-content-center gap-3">
           <button className="btn btn-primary btn-lg px-4">GET STARTED</button>
           <button className="btn btn-outline-light btn-lg px-4">CONTACT US</button>
